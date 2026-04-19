@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=PS4 Manager
+GenericName=PS4 Jailbreak Manager
+Comment=Manage a jailbroken PS4 (GoldHEN) from the desktop
+Exec=/usr/bin/ps4-manager
+Icon=ps4-manager
+Terminal=false
+Categories=Utility;System;
+Keywords=ps4;playstation;goldhen;jailbreak;

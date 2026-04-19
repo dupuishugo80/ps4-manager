@@ -1,0 +1,24 @@
+name: ps4-manager
+arch: amd64
+platform: linux
+version: 0.1.0
+section: utils
+priority: optional
+maintainer: dupuishugo80 <dupuis.hugo80110@gmail.com>
+description: |
+  Desktop manager for a jailbroken PS4 (GoldHEN).
+  Lets the user install PKGs, manage installed games and dump data
+  over the network without touching the controller.
+license: MIT
+contents:
+  - src: ./build/bin/ps4-manager
+    dst: /usr/bin/ps4-manager
+    file_info:
+      mode: 0755
+  - src: ./build/appicon.png
+    dst: /usr/share/icons/hicolor/256x256/apps/ps4-manager.png
+  - src: ./build/linux/ps4-manager.desktop
+    dst: /usr/share/applications/ps4-manager.desktop
+depends:
+  - libgtk-3-0
+  - libwebkit2gtk-4.1-0

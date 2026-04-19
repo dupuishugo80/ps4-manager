@@ -1,0 +1,20 @@
+version: "2"
+linters:
+  enable:
+    - modernize
+    - nakedret
+    - gochecknoinits
+    - nilerr
+    - errorlint
+    - bodyclose
+    - fatcontext
+    - misspell
+    - loggercheck
+    - unparam
+  exclusions:
+    paths:
+      - frontend
+      - build
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
